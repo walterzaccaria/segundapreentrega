@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2? family=Inconsolata&family=Noto+Serif:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* index*/
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(224, 215, 250);
+    height: 50px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align:center;
+    text-decoration:none;
+
+
+
+}
+/* tipografia descargada */
+h4 {
+    text-transform:uppercase;
+}
+.uno{
+    
+    font-family: "a-mano-alzada";
+    max-width:auto;
+    font-size: 25px;
+    overflow: none;
+}
+.parrafo-principal{
+    color: white;
+}
+.dos{
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 800px;
+    height: 300px;
+    font-size: 35px;
+    overflow-x: auto;
+}
+.parrafo-de-inicio-dos{
+    color: white;
+}
+.contenedor{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    background-image:url(../recursos/codobuverse2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-color: rgba(12, 12, 12, 0.6);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    width: auto;
+    height:950px;
+}
+.imagen{
+    width: 550px;
+    height: 350px;
+}
+.footer{
+    background-color: brown;
+    width: auto;
+    height: 30px;
+}
+ul{
+    padding: 5px;
+    margin: 5px;
+    background-color: crimson;
+}
+li{
+    background-color:lightsalmon;
+    margin: 12px;
+    display:inline-table;
+    padding: 15px;
+    width: 400px;
+    height: 25px;
+}
+
+img {
+    width: 800px;
+    height: 350px;
+}
+p{
+    display: flex;
+    text-align: center;
+    background-image: url("../recursos/codobuverse4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-color: rgba(12, 12, 12, 0.6);
+    width: auto;
+    height: auto;
+
+}
+.blanca{
+    font-weight: bold;
+    color: white;
+}
+/* imagen 2 de avances */
+.img-2 {
+    width: 750px;
+}
+.registrarse {
+    background-color: darkgreen;
+    background-image: url("../recursos/imagen\ del\ planeta\ terra.jpg");
+    background-size: 350px;
+    background-repeat: repeat;
+}
+.pie-pagina{
+    width:100%;
+    background-color: rgb(238, 20, 20);
+    color:white;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 350px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color:aqua;
+    margin-right: 10px;
+    background-color:white;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color:black
+}
+.pie-pagina .grupo-2{
+    background-color:#0d2033;
+    padding: 15px 10px;
+    text-align: center;
+    color:white;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+}
+table{
+    color:white;
+    background-image: url(../recursos/codobuverse4.jpg);
+    background-repeat:repeat;
+    background-size: 250px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 5px cyan;
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+
+}
+.table .border{
+    background-color:black;
+    text-align: center;
+    color: #0d2033;
+}
+h3{
+    background-color: aqua;
+    color: blanchedalmond;
+}
+div{
+    border: solid; grey: 1px;
+    padding: 10px;
+    
+}
+a{
+    display: inline-block;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+    color: darkgreen;
+
+}
+a:hover{
+    background-color: cadetblue;
+    color:white;
+    font-weight: bold;
+}
+td:hover{
+    background-color: aqua;
+    font-weight: bold;
+}
