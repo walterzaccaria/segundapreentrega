@@ -15,14 +15,16 @@ h1{
     font-size: 40px;
     text-align:center;
     text-decoration:none;
+    padding: 5px;
+    margin:5px;
+    flex-wrap: wrap;
+    min-width: 250px;
+    margin-bottom: 0px;
 
 
 
 }
 /* tipografia descargada */
-h4 {
-    text-transform:uppercase;
-}
 .uno{
     
     font-family: "a-mano-alzada";
@@ -56,6 +58,10 @@ h4 {
     background-attachment: fixed;
     width: auto;
     height:950px;
+    padding:25px;
+    margin: 20px;
+    flex-wrap: wrap;
+    min-width: 250px;
 }
 .imagen{
     width: 550px;
@@ -65,6 +71,10 @@ h4 {
     background-color: brown;
     width: auto;
     height: 30px;
+    padding:25px;
+    margin: 20px;
+    flex-wrap: wrap;
+    min-width: 250px;
 }
 ul{
     padding: 5px;
@@ -96,6 +106,10 @@ p{
     background-color: rgba(12, 12, 12, 0.6);
     width: auto;
     height: auto;
+    padding:25px;
+    margin: 20px;
+    flex-wrap: wrap;
+    min-width: 250px;
 
 }
 .blanca{
@@ -111,11 +125,19 @@ p{
     background-image: url("../recursos/imagen\ del\ planeta\ terra.jpg");
     background-size: 350px;
     background-repeat: repeat;
+    flex-wrap: wrap;
+    min-width: 250px;
 }
 .pie-pagina{
-    width:100%;
-    background-color: rgb(238, 20, 20);
-    color:white;
+    
+    background-image: url("../recursos/imagen\ del\ universo\ 4.jpg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    background-repeat: repeat;
+    flex-wrap: wrap;
+    min-width: 250px;
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -162,7 +184,6 @@ p{
     color:black
 }
 .pie-pagina .grupo-2{
-    background-color:#0d2033;
     padding: 15px 10px;
     text-align: center;
     color:white;
@@ -203,7 +224,7 @@ h3{
     color: blanchedalmond;
 }
 div{
-    border: solid; grey: 1px;
+    border: solid;
     padding: 10px;
     
 }
